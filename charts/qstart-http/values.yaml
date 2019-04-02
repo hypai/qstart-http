@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 890403726045.dkr.ecr.us-west-1.amazonaws.com/hypai/qstart-http
+  tag: 0.0.4
   pullPolicy: IfNotPresent
 service:
   name: qstart-http
